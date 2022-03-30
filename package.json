@@ -4,7 +4,6 @@
   "description": "ufile sdk for ucloud",
   "exports": "./lib/index.js",
   "types": "./lib/index.d.ts",
-  "type": "module",
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "test": "ts-node-esm test/index.ts",
